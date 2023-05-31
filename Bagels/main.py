@@ -41,7 +41,7 @@ When I say:    That means:
             
             clues = get_clues(guess, secret_num)
             print(clues)
-            # num_guesses += 1
+            num_guesses += 1
             
             if guess == secret_num:
                 break  # They are correct, so break out of this loop.
